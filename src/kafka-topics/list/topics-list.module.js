@@ -221,7 +221,7 @@ function arrayObjectIndexOf(myArray, searchTerm, property) {
               dataType_key = "avro";
             }
           });
-          if (dataType_value=="avro" && dataType_key=="avro") {
+          if (dataType_value=="avro" || dataType_key=="avro") {
             dataType="avro";
           }
 }
